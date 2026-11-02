@@ -6,7 +6,7 @@ import numpy as np
 import requests
 import eccodes as ec
 
-MODEL = "ICON_2I"
+MODEL = "ICON-2I_SURFACE_PRESSURE_LEVELS"
 ROOT = f"https://meteohub.agenziaitaliameteo.it/nwp/{MODEL}/"
 LAT, LON = 37.521499, 15.084048
 RADIUS_KM = 10          # intorno usato per la "probabilità" di pioggia
